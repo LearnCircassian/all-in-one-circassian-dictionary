@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { View, TextInput, StyleSheet, TouchableOpacity, Text } from "react-native";
 import { Feather } from "@expo/vector-icons"; // Importing the icons from @expo/vector-icons
 
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#7dc727",
+    backgroundColor: "#afdda7",
     borderRadius: 0,
     paddingVertical: 10,
     paddingHorizontal: 10,

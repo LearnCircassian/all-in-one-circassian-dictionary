@@ -1,4 +1,3 @@
-import { ThemedView } from "@/components/ThemedView";
 import React from "react";
 import {
   FlatList,
@@ -22,7 +21,6 @@ import {
   findAllAutocompletesInWordHistoryCache,
   findAutocompletesInWordHistoryCache,
 } from "@/cache/wordHistory";
-import { ThemedText } from "@/components/ThemedText";
 
 interface SearchResultsProps {
   searchInputValue: string;
