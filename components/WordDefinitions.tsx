@@ -302,8 +302,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 10,
-    paddingTop: 10,
-    paddingBottom: 100,
     backgroundColor: "white",
   },
   loading: {

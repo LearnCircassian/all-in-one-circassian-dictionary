@@ -57,7 +57,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     backgroundColor: "#292929",
-    paddingBottom: 4,
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 4,
@@ -76,6 +75,7 @@ const styles = StyleSheet.create({
     color: "white",
   },
   text: {
+    marginTop: -10,
     fontSize: 16,
     color: "white",
   },
