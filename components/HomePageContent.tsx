@@ -17,13 +17,20 @@ export default function HomePageContent() {
                 style={{width: 200, height: 200}}
             />
             <Text style={styles.introductionText}>
-                Welcome to our Circassian language dictionary collection! Access over 30 dictionaries translating Circassian to and from Russian, English, Arabic, and Turkish.
+                Welcome to our dedicated platform for preserving the Circassian language! Our mission is to
+                keep this rich linguistic heritage alive by offering access to over 30 comprehensive
+                dictionaries. These dictionaries facilitate translations between Circassian and major
+                languages including Russian, English, Arabic, and Turkish.
                 {"\n"}
                 {"\n"}
-                Our collection covers both Western and Eastern Circassian, offering valuable resources for language enthusiasts, students, and scholars.
+                Our collection spans both Western and Eastern Circassian, enabling translations to and from
+                Turkish, English, Russian, and Arabic. We aim to assist Circassians from all over the world
+                in understanding advanced Circassian texts such as newspapers, Nart Saga stories, articles,
+                and more.
                 {"\n"}
                 {"\n"}
-                Explore the richness of the Circassian language and its cultural heritage with us.
+                Explore our app to immerse yourself in the beauty and complexity of the Circassian
+                language, and join us in our endeavor to ensure its survival for future generations.
             </Text>
 
             <Text selectable={true} style={styles.title}>
@@ -68,18 +75,6 @@ export default function HomePageContent() {
                     {"\n"}
                     <Text selectable={true} style={styles.boldText}>
                         learncircassian@gmail.com
-                    </Text>
-                </Text>
-                <Text selectable={true} style={styles.footerText}>
-                    You can get the dictionaries that we used at:
-                    {"\n"}
-                    <Text
-                        style={styles.boldText}
-                        onPress={() =>
-                            Linking.openURL("https://github.com/bihoqo/circassian-dictionaries-collection")
-                        }
-                    >
-                        https://github.com/bihoqo/circassian-dictionaries-collection
                     </Text>
                 </Text>
                 <Text selectable={true} style={styles.footerText}>

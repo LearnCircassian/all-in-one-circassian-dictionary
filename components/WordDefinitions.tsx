@@ -169,14 +169,24 @@ export default function WordDefinitions({ wordSpelling }: WordDefinitionsProps) 
           </View>
         }
         data={defResultsAfterFilter}
-        keyExtractor={(item, index) => `${item.title}-${index}`}
-        renderItem={({ item, index }) => <DefinitionBox wordDef={item} idx={index} />}
+        keyExtractor={(item, index) => {
+          return `${item.title}-${index}`;
+        }}
+        renderItem={({ item, index }) => {
+          return <DefinitionBox wordDef={item} idx={index} isLastItem={index === defResultsAfterFilter.length - 1} />
+        }}
       />
     </View>
   );
 }
 
-function DefinitionBox({ wordDef, idx }: { wordDef: WordDefinitionsResults; idx: number }) {
+interface DefinitionBoxProps {
+    wordDef: WordDefinitionsResults;
+    idx: number;
+    isLastItem: boolean;
+}
+
+function DefinitionBox({ wordDef, idx, isLastItem }: DefinitionBoxProps) {
   const { width } = useWindowDimensions();
   const source: HTMLSource = {
     html: wordDef.html,
@@ -191,7 +201,10 @@ function DefinitionBox({ wordDef, idx }: { wordDef: WordDefinitionsResults; idx:
   return (
     <View
       key={idx}
-      style={[styles.definitionBox, definitionVisible && styles.visibleDefinitionBox]}
+      style={[styles.definitionBox,
+        definitionVisible && styles.visibleDefinitionBox,
+        isLastItem && { marginBottom: 150 },
+      ]}
     >
       <TouchableOpacity style={styles.definitionHeader} onPress={toggleDefinitionVisibility}>
         <Text selectable={true} style={styles.definitionTitle}>
@@ -311,6 +324,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    marginTop: 8,
     marginBottom: 16,
   },
   wordSpelling: {

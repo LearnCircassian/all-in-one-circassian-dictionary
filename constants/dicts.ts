@@ -114,7 +114,7 @@ export const USED_DICTS: UsedDict[] = [
     toLang: "Ru",
   },
   { count: 15139, title: "Адыгабзэм изэхэф гущы1алъ (2006)", fromLang: "Ady", toLang: "Ru" },
-  { count: 27268, title: "Адыгэ-урыс псалъалъэ (2008)", fromLang: "Kbd", toLang: "Ru" },
+  { count: 27268, title: "Адыгэ-урыс псалъалъэ (2012)", fromLang: "Kbd", toLang: "Ru" },
   { count: 12350, title: "Ибрагим Алхаз Абазэ (2005)", fromLang: "Tu", toLang: "Kbd" },
   {
     count: 33490,
@@ -128,4 +128,12 @@ export const USED_DICTS: UsedDict[] = [
     fromLang: "Tr",
     toLang: "Ady",
   },
+  {
+    count: 20639,
+    title: "Еджап1эм папщ1э урыс-адыгэ псалъалъэ (2013)",
+    fromLang: "Ru",
+    toLang: "Kbd",
+  },
+  { count: 15360, title: "Адыгабзэм изэхэф гущы1алъ (1960)", fromLang: "Ady", toLang: "Ru" },
+  { count: 27267, title: "Адыгэ-урыс псалъалъэ (2008)", fromLang: "Kbd", toLang: "Ru" },
 ];
