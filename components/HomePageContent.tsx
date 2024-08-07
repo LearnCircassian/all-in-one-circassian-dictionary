@@ -83,7 +83,7 @@ export default function HomePageContent() {
                     <Text
                         style={styles.boldText}
                         onPress={() =>
-                            Linking.openURL("https://github.com/bihoqo/circassian-dictionaries-collection")
+                            Linking.openURL("https://www.learncircassian.com")
                         }
                     >
                         https://www.learncircassian.com
