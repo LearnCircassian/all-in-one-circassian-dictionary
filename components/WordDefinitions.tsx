@@ -7,8 +7,6 @@ import RenderHtml, {
 import {
   ActivityIndicator,
   FlatList,
-  ListRenderItemInfo,
-  ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -210,7 +208,9 @@ function DefinitionBox({ wordDef, idx, isLastItem }: DefinitionBoxProps) {
         <Text selectable={true} style={styles.definitionTitle}>
           {wordDef.title} ({wordDef.fromLangs.join("/")} {"->"} {wordDef.toLangs.join("/")})
         </Text>
-        <FontAwesome name="chevron-down" size={24} color="black" />
+        <View style={{flex: 0}}>
+          <FontAwesome name="chevron-down" size={24} color="black" />
+        </View>
       </TouchableOpacity>
       {definitionVisible && (
         <RenderHtml
@@ -368,7 +368,6 @@ const styles = StyleSheet.create({
   definitionBox: {
     backgroundColor: "#f9f9f9",
     borderRadius: 8,
-    padding: 8,
     marginBottom: 16,
     borderWidth: 1,
     borderColor: "#ddd",
@@ -377,16 +376,21 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   definitionHeader: {
+    padding: 8,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     marginBottom: 8,
+    backgroundColor: "#afdda780",
+    display: "flex",
   },
   definitionTitle: {
-    fontSize: 18,
+    fontSize: 14,
+    flex: 1,
     fontWeight: "bold",
   },
   definitionContent: {
     marginTop: 8,
+    padding: 4,
   },
 });
