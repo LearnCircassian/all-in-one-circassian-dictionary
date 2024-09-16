@@ -2174,17 +2174,17 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@tanstack/query-core@5.52.0":
-  version "5.52.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.52.0.tgz#44070b2d6eb58c3a5ce2788471d842e932294a87"
-  integrity sha512-U1DOEgltjUwalN6uWYTewSnA14b+tE7lSylOiASKCAO61ENJeCq9VVD/TXHA6O5u9+6v5+UgGYBSccTKDoyMqw==
+"@tanstack/query-core@5.56.2":
+  version "5.56.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.56.2.tgz#2def2fb0290cd2836bbb08afb0c175595bb8109b"
+  integrity sha512-gor0RI3/R5rVV3gXfddh1MM+hgl0Z4G7tj6Xxpq6p2I03NGPaJ8dITY9Gz05zYYb/EJq9vPas/T4wn9EaDPd4Q==
 
-"@tanstack/react-query@^5.52.1":
-  version "5.52.1"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.52.1.tgz#d454e2bb86ab21621de016c7044514d6412db7ee"
-  integrity sha512-soyn4dNIUZ8US8NaPVXv06gkZFHaZnPfKWPDjRJjFRW3Y7WZ0jx72eT6zhw3VQlkMPysmXye8l35ewPHspKgbQ==
+"@tanstack/react-query@^5.56.2":
+  version "5.56.2"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.56.2.tgz#3a0241b9d010910905382f5e99160997b8795f91"
+  integrity sha512-SR0GzHVo6yzhN72pnRhkEFRAHMsUo5ZPzAxfTMvUxFIDVS6W9LYUp6nXW3fcHVdg0ZJl8opSH85jqahvm6DSVg==
   dependencies:
-    "@tanstack/query-core" "5.52.0"
+    "@tanstack/query-core" "5.56.2"
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -2839,10 +2839,10 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-axios@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.5.tgz#21eed340eb5daf47d29b6e002424b3e88c8c54b1"
-  integrity sha512-fZu86yCo+svH3uqJ/yTdQ0QHpQu5oL+/QE+QPSv6BZSkDAoky9vytxp7u5qk83OJFS3kEBcesWni9WTZAv3tSw==
+axios@^1.7.7:
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
+  integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.0"
@@ -4404,17 +4404,17 @@ expo-file-system@^17.0.1, expo-file-system@~17.0.1:
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-17.0.1.tgz#b9f8af8c1c06ec71d96fd7a0d2567fa9e1c88f15"
   integrity sha512-dYpnZJqTGj6HCYJyXAgpFkQWsiCH3HY1ek2cFZVHFoEc5tLz9gmdEgTF6nFHurvmvfmXqxi7a5CXyVm0aFYJBw==
 
-expo-font@^12.0.9, expo-font@~12.0.9:
-  version "12.0.9"
-  resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-12.0.9.tgz#096860a6b8b5dd54152262eafd318593ec2db48c"
-  integrity sha512-seTCyf0tbgkAnp3ZI9ZfK9QVtURQUgFnuj+GuJ5TSnN0XsOtVe1s2RxTvmMgkfuvfkzcjJ69gyRpsZS1cC8hjw==
+expo-font@^12.0.10, expo-font@~12.0.10:
+  version "12.0.10"
+  resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-12.0.10.tgz#62deaf1f46159d7839f01305f44079268781b1db"
+  integrity sha512-Q1i2NuYri3jy32zdnBaHHCya1wH1yMAsI+3CCmj9zlQzlhsS9Bdwcj2W3c5eU5FvH2hsNQy4O+O1NnM6o/pDaQ==
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-image@^1.12.14:
-  version "1.12.14"
-  resolved "https://registry.yarnpkg.com/expo-image/-/expo-image-1.12.14.tgz#8ae2e855003fa08516b32134a6a8028a5b523d7f"
-  integrity sha512-sPjinoPngbJeWPRzMiEx/iDgGytCywSrY0IDaoGBRc0gIxU9L7XtFkCWnm3OG0bZtZyU4PFiSswNVkL2zCQG8w==
+expo-image@^1.12.15:
+  version "1.12.15"
+  resolved "https://registry.yarnpkg.com/expo-image/-/expo-image-1.12.15.tgz#86c3d84500d769a5afadca78b2382a0552d29180"
+  integrity sha512-rjvnNSaFnrmlugDESTaYJhgdqRLn+M5vu0lD5NGNd2LkxGG5HrRV3gSzeyQQ68XRhrDN8eJvkcKujPKJUTMraw==
 
 expo-keep-awake@~13.0.2:
   version "13.0.2"
@@ -4442,10 +4442,10 @@ expo-modules-autolinking@1.11.2:
     require-from-string "^2.0.2"
     resolve-from "^5.0.0"
 
-expo-modules-core@1.12.23:
-  version "1.12.23"
-  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-1.12.23.tgz#ea1c0c876aa52db2cb9d25cb59404c334f92446f"
-  integrity sha512-NYp/rWhKW6zlqNdC8/r+FckzlAGWX0IJEjOxwYHuYeRUn/vnKksb43G4E3jcaQEZgmWlKxK4LpxL3gr7m0RJFA==
+expo-modules-core@1.12.24:
+  version "1.12.24"
+  resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-1.12.24.tgz#8c35a16ed6ecb8997f6bd527fc95a8c22f343602"
+  integrity sha512-3geIe2ecizlp7l26iY8Nmc59z2d1RUC5nQZtI9iJoi5uHEUV/zut8e4zRLFVnZb8KOcMcEDsrvaBL5DPnqdfpg==
   dependencies:
     invariant "^2.2.4"
 
@@ -4489,10 +4489,10 @@ expo-web-browser@^13.0.3:
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-13.0.3.tgz#dceb05dbc187b498ca937b02adf385b0232a4e92"
   integrity sha512-HXb7y82ApVJtqk8tManyudtTrCtx8xcUnVzmJECeHCB0SsWSQ+penVLZxJkcyATWoJOsFMnfVSVdrTcpKKGszQ==
 
-expo@^51.0.31:
-  version "51.0.31"
-  resolved "https://registry.yarnpkg.com/expo/-/expo-51.0.31.tgz#edd623e718705d88681406e72869076dfeb485ff"
-  integrity sha512-YiUNcxzSkQ0jlKW+e8F81KnZfAhCugEZI9VYmuIsFONHivtiYIADHdcFvUWnexUEdgPQDkgWw85XBnIbzIZ39Q==
+expo@^51.0.32:
+  version "51.0.32"
+  resolved "https://registry.yarnpkg.com/expo/-/expo-51.0.32.tgz#2e6068f33cb6a361a3aa35e03bf6d5ce21a4ee2d"
+  integrity sha512-6GEhYvHRnyS/6BytQagGkClsaqbuwAtlN3A6oDfnNMRKLmz6NE/r+Rjg9zbQgUO6zigqb60Yj5lAX32DmixRDw==
   dependencies:
     "@babel/runtime" "^7.20.0"
     "@expo/cli" "0.18.29"
@@ -4503,10 +4503,10 @@ expo@^51.0.31:
     babel-preset-expo "~11.0.14"
     expo-asset "~10.0.10"
     expo-file-system "~17.0.1"
-    expo-font "~12.0.9"
+    expo-font "~12.0.10"
     expo-keep-awake "~13.0.2"
     expo-modules-autolinking "1.11.2"
-    expo-modules-core "1.12.23"
+    expo-modules-core "1.12.24"
     fbemitter "^3.0.0"
     whatwg-url-without-unicode "8.0.0-3"
 
@@ -6940,10 +6940,10 @@ nested-error-stacks@~2.0.1:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.0.1.tgz#d2cc9fc5235ddb371fc44d506234339c8e4b0a4b"
   integrity sha512-SrQrok4CATudVzBS7coSz26QRSmlK9TzzoFbeKfcPBUFPjcQM9Rqvr/DlJkOrwI/0KcgvMub1n1g5Jt9EgRn4A==
 
-neverthrow@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-7.0.1.tgz#b67f37c3f853d42cec0d48a10e840895b6caa9af"
-  integrity sha512-NY1sD1wZn6dwwzV9/5KZ4wRIpH4xC7ARy3fGmnEi2Pi8CHDTWlp+WSF+if8cudrwuCWGrk2y2BE/dnGh070iuA==
+neverthrow@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/neverthrow/-/neverthrow-8.0.0.tgz#9eb14d3389df60c74d75120f1ebb4fd0488ed595"
+  integrity sha512-SX2Z50+U27I+CF3NwHE9J8MB6+bYRRub3U+1nAKxnL6c+2vW2l/WsYEC0e3Wqg8DwiJvrquqE0YhxlVTzGJGsg==
 
 nice-try@^1.0.4:
   version "1.0.5"
